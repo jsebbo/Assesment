@@ -21,7 +21,7 @@ body{text-align: center;}
 
 
 
-.bg-turqoise{background-color: rgb(90,219,175,86); padding: 10px; margin: 20px; border: 3px solid rgb(0, 0, 0);}
+.bg-turqoise{background-color: rgb(184, 236, 252); padding: 10px; margin: 20px; border: 3px solid rgb(0, 0, 0);}
 
 nav{
   background-color:rgb(255, 255, 255) ;
@@ -46,7 +46,7 @@ nav ul li a{
 }
 
 nav ul li :hover{
-  background-color:rgb(90,219,175,86);
+  background-color:rgb(184, 236, 252);
 
 }
 
@@ -55,16 +55,16 @@ nav ul li:hover a{
 }
 
 
-h1{ font-family: 'Tajawal', sans-serif;
+h1{ font-family: 'Rubik', sans-serif;
 }
 
-h2{ font-family: 'Tajawal', sans-serif;
+h2{ font-family: 'Montserrat', sans-serif;
 }
 
-p{ font-family: 'Tajawal', sans-serif;
+p{ font-family: 'Montserrat', sans-serif;
 }
 
-li{ font-family: 'Tajawal', sans-serif;
+li{ font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -123,7 +123,7 @@ rgb(255, 255, 255) ;
 
   width:100vw;
   height:100vh;
-  font-family:'Tilt Neon', sans-serif;
+  font-family:'Rubik', sans-serif;
   font-weight:bold;
   font-size:20px;
   display:grid;
@@ -159,22 +159,22 @@ height: 300px;
 }
 
 .column p1{
-color:rgba(62,236,79,1);
+color:rgba(184, 236, 252);
   font-size: 25px;
   }
 
 .column p2{
-color:rgba(62,236,79,1);
+color:rgba(184, 236, 252);
   font-size: 25px;
   }
 
 .column p3{
-color:rgba(62,236,79,1);
+color:rgba(184, 236, 252);
   font-size: 25px;
   }
 
 .column h2{
-  color:rgba(62,236,79,1);
+  color:rgba(0,0,0);
 }
 
 
@@ -191,7 +191,7 @@ clear: both;
 }
 
 @media screen and (max-width: 992px) {
-  .column {
+  .grid1 {
     width:50%; 
     min-height:350px;
   }
@@ -204,7 +204,7 @@ clear: both;
 
 
 @media screen and (max-width: 600px) {
-  .column {
+  .grid1 {
     width: 100%;
     background-color: rgba(62,236,79,0);
     padding:20px; margin:0px;
@@ -219,23 +219,6 @@ footer{
   padding:3px; margin:0px;
   border:5px solid #000000;}
 
-.CEO{
-  border-radius:50%;}
-
-.COO{
-  border-radius:50%;}
-
-.CFO{
-  border-radius:50%;}
-
-
-
-.Gaia{ 
-  height:50px;
-  width:50px; 
-  margin-right:auto;
-float:left;
-}
 
 body{
   margin:0;
@@ -261,33 +244,6 @@ body{
     border:1px #000000 solid;
   }
 
-
-
-
-  
-
-
-  .Information{
-  background-color:rgba(62,236,79);  
-  grid-column-start:1;
-  grid-column-end:4;  
-  }
-
-
-  .How-You-Can-Help{
-    background-color:rgba(62,236,79);
-    grid-column-start:3;
-    grid-column-end:4;
-    grid-row-start:2;
-    grid-row-end:4;
-  }
-  .What-We-Do{
-  background-color:rgba(62,236,79);  
-  grid-column-start:2;
-  grid-column-end:3;
-  grid-row-start: 2; 
-  grid-row-end:4 ; 
-  }
 
 /* Recycling Page */
 .env-about{
@@ -382,7 +338,7 @@ body{
 For Contact us pages
 */
 .contact-form{
-  background-color:rgba(90,219,175,86);
+  background-color:rgba(184, 236, 252);
   grid-column-start:1;
   grid-column-end:2;
   grid-row-start:2;
@@ -390,13 +346,13 @@ For Contact us pages
 }
 
 .our-socials{
-  background-color:rgba(90,219,175,86);  
+  background-color:rgba(184, 236, 252);  
   grid-column-start:3;
   grid-column-end:4; 
   grid-row-start: 2;
 }  
 .emailus{
-   background-color:rgba(90,219,175,86);
+   background-color:rgba(184, 236, 252);
    grid-column-start:2;
    grid-column-end:3;
   grid-row-start:2
@@ -404,7 +360,7 @@ For Contact us pages
 }
 
 .map{
-  background-color:rgba(90,219,175,86);
+  background-color:rgba(184, 236, 252);
   grid-column-start:1;
   grid-column-end:4;
   grid-row-start:3;
@@ -458,55 +414,32 @@ For Contact us pages
 @media screen and ( max-width:992px) {
   .Information{
     width:100%;
-    background-color:rgba(62,236,79,0.5);
+    background-color:rgba(184, 236, 252);
   }
   .How-You-Can-Help{
     width:100%;
-    background-color:rgba(62,236,79,0.5);            
+    background-color:rgba(184, 236, 252);            
   }
   .What-We-Do{
     width:100%;
-    background-color:rgba(62,236,79,0.5);
+    background-color:rgba(184, 236, 252);
 }
   .Environmental-Issues{
     width:100%;
-    background-color:rgba(62,236,79,0.5);
+    background-color:rgba(184, 236, 252);
   }
   .Our-Workers{
     width:100%;
-    background-color:rgba(62,236,79,0.5);
+    background-color:rgba(184, 236, 252);
   }
 
-  .map {
-    width: 100%;
-  }
-.office1{
-   width:100%
-}
-.office2{
-  width:100%
-}
+
 @media screen and ( max-width:600px){
   .Information{
     width:100%;
     background-color:rgba(62,236,79,0.1);
   }
-  .How-You-Can-Help{
-    width:100%;
-    background-color:rgba(62,236,79,0.1);
-}
-  .What-We-Do{
-    width:100%;
-    background-color:rgba(62,236,79,0.1);
-  }
-  .Environmental-Issues{
-    width:100%;
-    background-color:rgba(62,236,79,0.1);
-  }
-  .Our-Workers{
-    width:100%;
-    background-color:rgba(62,236,79,0.1);
-  }
+
 
   .map {
     width: 100%;
