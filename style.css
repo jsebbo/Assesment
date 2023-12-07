@@ -46,7 +46,7 @@ nav ul li a{
 }
 
 nav ul li :hover{
-  background-color: #a3fff0
+  background-color:rgb(90,219,175,86);
 
 }
 
@@ -145,35 +145,8 @@ rgb(255, 255, 255) ;
   padding-right:30px;}
 
 
-nav
-{background-color:rgba(255,255,255,);
-border:2px solid rgba(0,0,0,1);
-color:rgba(255,255,255,);
-display:block;
-overflow:hidden;
-width:100%;}
 
 
-nav ul li{
-  display: inline-block;
-  list-style-type: none;
-}
-
-nav ul li a{
-  color:rgba(0,0,0,1);
-  display: block;
-  line-height: 56px;
-  text-decoration: none;
-  padding: 10px;
-}
-
-nav ul li :hover{
-  background-color:rgba(62, 236, 79, 0.8);
-}
-
-nav ul li:hover a{
-  color: rgb(0, 0, 0,)
-}
 
   * {
 box-sizing: border-box }
@@ -446,6 +419,41 @@ For Contact us pages
   grid-row-end:5;
 
 }
+
+
+/* About Us Page */
+.how-you-help{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:1;
+  grid-row-end:4; 
+}
+
+.issues{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:4; 
+}
+
+.workers{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:3; 
+}
+
+.wwd{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
 
 @media screen and ( max-width:992px) {
   .Information{
