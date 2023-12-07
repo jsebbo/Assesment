@@ -11,12 +11,21 @@ h1 {text-align: center;}
 ul {text-align: center;}
 body{text-align: center;}
 
+.gaialogo{
+  height: 100px;
+  width: 150px;
+  margin-right: auto;
+  float: left;
+}
+
+
+
 
 .bg-turqoise{background-color: rgb(90,219,175,86); padding: 10px; margin: 20px; border: 3px solid rgb(0, 0, 0);}
 
 nav{
   background-color:rgb(255, 255, 255) ;
-  border: 5px solid #000000;
+  border: 2px solid #000000;
   color:rgb(255, 255, 255);
   display: block;
 overflow: hidden;
@@ -45,6 +54,15 @@ nav ul li:hover a{
   color: rgb(0, 0, 0)
 }
 
+
+h1{ font-family: 'Tajawal', sans-serif;
+}
+
+h2{ font-family: 'Tajawal', sans-serif;
+}
+
+p{ font-family: 'Tajawal', sans-serif;
+}
 
 li{ font-family: 'Tajawal', sans-serif;
 }
@@ -100,4 +118,394 @@ rgb(255, 255, 255) ;
 </style>
 
 
-.worker1 
+
+.grid1{
+
+  width:100vw;
+  height:100vh;
+  font-family:'Tilt Neon', sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:50px 1fr 1fr 100px;
+  gap:10px;
+  padding:10px;
+  box-sizing:border-box;
+
+}
+
+.grid1 div{
+  padding:10px;
+  border:1px #000000 solid;
+
+}
+
+.bar{
+  padding-right:30px;}
+
+
+nav
+{background-color:rgba(255,255,255,);
+border:2px solid rgba(0,0,0,1);
+color:rgba(255,255,255,);
+display:block;
+overflow:hidden;
+width:100%;}
+
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a{
+  color:rgba(0,0,0,1);
+  display: block;
+  line-height: 56px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li :hover{
+  background-color:rgba(62, 236, 79, 0.8);
+}
+
+nav ul li:hover a{
+  color: rgb(0, 0, 0,)
+}
+
+  * {
+box-sizing: border-box }
+
+.column{
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 300px; 
+}
+
+.column p1{
+color:rgba(62,236,79,1);
+  font-size: 25px;
+  }
+
+.column p2{
+color:rgba(62,236,79,1);
+  font-size: 25px;
+  }
+
+.column p3{
+color:rgba(62,236,79,1);
+  font-size: 25px;
+  }
+
+.column h2{
+  color:rgba(62,236,79,1);
+}
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+@media screen and (max-width: 992px){
+.bg-green{background-color:rgba(62,236,79,0.5) ;padding:10px; margin:5px; border:2px solid #000000;
+         }
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width:50%; 
+    min-height:350px;
+  }
+}
+
+@media screen and (max-width: 600px){
+.bg-green{background-color:rgba(62,236,79,0.1) ;padding:10px; margin:5px; border:2px solid #000000;
+         }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    background-color: rgba(62,236,79,0);
+    padding:20px; margin:0px;
+    border:2px solid #000000;}
+  }
+}
+
+footer{
+  background-color:rgba(255,255,255);
+  color:rgba(0,0,0);
+  text-align:center;
+  padding:3px; margin:0px;
+  border:5px solid #000000;}
+
+.CEO{
+  border-radius:50%;}
+
+.COO{
+  border-radius:50%;}
+
+.CFO{
+  border-radius:50%;}
+
+
+
+.Gaia{ 
+  height:50px;
+  width:50px; 
+  margin-right:auto;
+float:left;
+}
+
+body{
+  margin:0;
+}
+
+  .grid1{
+    width:100vw;
+    height:100vh;
+    font-family:'Tilt Neon', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:50px 1fr 1fr 100px;
+
+    gap:10px;
+    padding:10px;
+    box-sizing:border-box;
+  }
+  .grid1 div{
+    padding:10px;
+    border:1px #000000 solid;
+  }
+
+
+
+
+  
+
+
+  .Information{
+  background-color:rgba(62,236,79);  
+  grid-column-start:1;
+  grid-column-end:4;  
+  }
+
+
+  .How-You-Can-Help{
+    background-color:rgba(62,236,79);
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:4;
+  }
+  .What-We-Do{
+  background-color:rgba(62,236,79);  
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start: 2; 
+  grid-row-end:4 ; 
+  }
+
+/* Recycling Page */
+.env-about{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3; 
+}
+
+.volunteer{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
+.help{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
+.info{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
+.recyclelogo{
+  background-color:rgba(0,0,0,0);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:3; 
+}
+
+/* Weather Page */
+.weather-about{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3; 
+}
+
+.volunteer-weather{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
+.help-weather{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
+.info-weather{
+  background-color:rgba(184, 236, 252);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4; 
+}
+
+.weather-image{
+  background-color:rgba(0,0,0,0);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:3; 
+}
+
+
+
+
+
+.Our-Workers{
+  background-color:rgba(62,236,79); 
+}
+/*
+For Contact us pages
+*/
+.contact-form{
+  background-color:rgba(90,219,175,86);
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end:3;
+}
+
+.our-socials{
+  background-color:rgba(90,219,175,86);  
+  grid-column-start:3;
+  grid-column-end:4; 
+  grid-row-start: 2;
+}  
+.emailus{
+   background-color:rgba(90,219,175,86);
+   grid-column-start:2;
+   grid-column-end:3;
+  grid-row-start:2
+  
+}
+
+.map{
+  background-color:rgba(90,219,175,86);
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+
+.footer-grid{
+  background-color:rgba(0,0,0,0);
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:4;
+  grid-row-end:5;
+
+}
+
+@media screen and ( max-width:992px) {
+  .Information{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+  }
+  .How-You-Can-Help{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);            
+  }
+  .What-We-Do{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+}
+  .Environmental-Issues{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+  }
+  .Our-Workers{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+  }
+
+  .map {
+    width: 100%;
+  }
+.office1{
+   width:100%
+}
+.office2{
+  width:100%
+}
+@media screen and ( max-width:600px){
+  .Information{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+  .How-You-Can-Help{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+}
+  .What-We-Do{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+  .Environmental-Issues{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+  .Our-Workers{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+
+  .map {
+    width: 100%;
+  }
+.office1{
+   width:100%
+}
+.office2{
+  width:100%
+}
