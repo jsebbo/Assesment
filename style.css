@@ -331,7 +331,7 @@ body{
 
 
 
-.Our-Workers{
+.workers{
   background-color:rgba(62,236,79); 
 }
 /*
@@ -412,7 +412,7 @@ For Contact us pages
 
 
 @media screen and ( max-width:992px) {
-  .Information{
+  .info{
     width:100%;
     background-color:rgba(184, 236, 252);
   }
@@ -420,24 +420,24 @@ For Contact us pages
     width:100%;
     background-color:rgba(184, 236, 252);            
   }
-  .What-We-Do{
+  .wwd{
     width:100%;
     background-color:rgba(184, 236, 252);
 }
-  .Environmental-Issues{
+  .issues{
     width:100%;
     background-color:rgba(184, 236, 252);
   }
-  .Our-Workers{
+  .workers{
     width:100%;
     background-color:rgba(184, 236, 252);
   }
 
 
 @media screen and ( max-width:600px){
-  .Information{
+  .info{
     width:100%;
-    background-color:rgba(62,236,79,0.1);
+    background-color:rgba(184, 236, 252);
   }
 
 
